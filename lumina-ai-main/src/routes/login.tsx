@@ -52,7 +52,7 @@ function LoginPage() {
 
   return (
     <AuthLayout
-      title="Welcome back"
+      title="Welcome"
       subtitle="Sign in to continue analyzing products."
       footer={
         <>
