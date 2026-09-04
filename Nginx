@@ -1,14 +1,1 @@
-server {
-·08
-listen
-server_name localhost;
-root /usr/share/nginx/html;
-index index.html;
-# Serve static files, fall back to index.html for client-side routing
-location/{
-try_files $uri $uri/ /index.html;} 
-# Cache static assets
-location * \.(jslcss1pngljpgljpeglgiflsvglicowoff2?) { 
-(expires 30d;
-add_header Cache-Control "public, immutable";}
-}
+
